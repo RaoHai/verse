@@ -7,8 +7,8 @@ var fs          = require('fs'),
     utils       = require('../utils');
 
 var init = function () {
-    var appBase      = path.dirname(require.main.filename),
-        dbConfigPath = path.join(appBase, '/config/database.json'),
+    var appBase      = path.join(path.dirname(require.main.filename), '../shared'),
+        dbConfigPath = path.join(appBase, '/config.json'),
         schemaTables = require(path.join(appBase, '/data/schema')).tables,
         dbConfig     = require(dbConfigPath),
 
@@ -17,15 +17,13 @@ var init = function () {
         db;
 
     dbFile = dbConfig.connection.filename = path.join(appBase, dbConfig.connection.filename)
-    console.log("dbFile:", dbFile);
-
     db = bookshelf(knex(dbConfig));
 
     fs.exists(dbFile, function(exists) {
+
         if (!exists) {
             return defer.resolve(utils.createDb(db, schemaTables));
         }
-
         return defer.resolve(db);
     });
 

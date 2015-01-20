@@ -1,0 +1,7 @@
+{
+    "client": "sqlite3",
+    "connection" : {
+        "filename" : "/data/verse.db"
+    },
+    "debug": true
+}

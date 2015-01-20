@@ -1,5 +1,6 @@
 var pomelo = require('pomelo'),
-    model = require('./app/models');
+    model = require('../shared/models');
+
 
 /**
  * Init app for client.
@@ -19,8 +20,7 @@ app.configure('production|development', 'connector', function(){
 });
 
 model.init().then(function (result) {
-    console.log(" >>>>> model init result:", result);
-    
+    // console.log(" >>>>> model init result:", result);
     // start app
     app.start();
 });

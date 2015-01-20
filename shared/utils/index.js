@@ -1,6 +1,6 @@
 var _        = require('lodash'),
     sequence = require('./sequence'),
-    schema   = require('../../data/schema').tables;
+    schema   = require('../data/schema').tables;
     
 function addTableColumn(tablename, table, columnname) {
     console.log('>>addTableColumn:', tablename, columnname);
