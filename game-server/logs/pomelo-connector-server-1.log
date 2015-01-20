@@ -84,3 +84,216 @@
 [2015-01-19 18:07:25.971] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
 [2015-01-19 18:07:25.971] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 476 ms
 [2015-01-19 18:11:50.836] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 10:02:32.829] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 10:02:34.641] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 10:02:34.645] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 10:02:34.645] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 1376 ms
+[2015-01-20 10:06:09.151] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2015-01-20 10:06:09.162] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"connector.entryHandler.entry","body":"hello pomelo"}
+[2015-01-20 10:06:09.167] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.entryHandler.entry, msg: {"code":200,"msg":"game server is ok."}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2015-01-20 11:38:48.390] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 11:38:48.734] [ERROR] pomelo - [31m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39minvalid components, no components exist
+[2015-01-20 11:38:48.736] [ERROR] pomelo - [31m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39minvalid components, no components exist
+[2015-01-20 11:38:48.736] [ERROR] pomelo - [31m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39minvalid components, no components exist
+[2015-01-20 11:38:50.815] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 11:38:50.819] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 11:38:50.819] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 1825 ms
+[2015-01-20 11:39:42.796] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 11:39:42.859] [ERROR] pomelo - [31m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39minvalid components, no components exist
+[2015-01-20 11:39:42.860] [ERROR] pomelo - [31m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39minvalid components, no components exist
+[2015-01-20 11:39:42.860] [ERROR] pomelo - [31m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39minvalid components, no components exist
+[2015-01-20 11:39:43.554] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 11:39:43.557] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 11:39:43.558] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 459 ms
+[2015-01-20 11:39:50.752] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2015-01-20 11:39:50.759] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"connector.entryHandler.entry","body":"hello pomelo"}
+[2015-01-20 11:39:50.763] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.entryHandler.entry, msg: {"code":200,"msg":"game server is ok."}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2015-01-20 11:48:19.300] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 11:48:19.358] [ERROR] pomelo - [31m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39minvalid components, no components exist
+[2015-01-20 11:48:19.359] [ERROR] pomelo - [31m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39minvalid components, no components exist
+[2015-01-20 11:48:19.360] [ERROR] pomelo - [31m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39minvalid components, no components exist
+[2015-01-20 11:48:20.040] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 11:48:20.044] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 11:48:20.044] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 444 ms
+[2015-01-20 11:48:31.986] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2015-01-20 11:48:31.993] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"connector.entryHandler.entry","body":"hello pomelo"}
+[2015-01-20 11:48:32.000] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.entryHandler.entry, msg: {"code":200,"msg":"game server is ok."}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2015-01-20 11:55:12.760] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 11:55:12.817] [ERROR] pomelo - [31m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39minvalid components, no components exist
+[2015-01-20 11:55:12.818] [ERROR] pomelo - [31m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39minvalid components, no components exist
+[2015-01-20 11:55:12.818] [ERROR] pomelo - [31m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39minvalid components, no components exist
+[2015-01-20 11:55:13.500] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 11:55:13.504] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 11:55:13.504] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 447 ms
+[2015-01-20 13:01:29.860] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2015-01-20 13:01:29.869] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"connector.entryHandler.entry","body":"hello pomelo"}
+[2015-01-20 13:01:29.879] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.entryHandler.entry, msg: {"code":200,"msg":"game server is ok."}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2015-01-20 13:01:41.677] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 2
+[2015-01-20 13:01:41.690] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 2, msg: {"id":1,"type":0,"compressRoute":0,"route":"connector.entryHandler.entry","body":"hello pomelo"}
+[2015-01-20 13:01:41.692] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.entryHandler.entry, msg: {"code":200,"msg":"game server is ok."}, receivers: [2], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2015-01-20 13:01:48.360] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 2
+[2015-01-20 14:56:43.398] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 14:56:44.158] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 14:56:44.162] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 14:56:44.163] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 454 ms
+[2015-01-20 15:01:17.151] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 15:01:18.080] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 15:01:18.084] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 15:01:18.085] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 533 ms
+[2015-01-20 15:01:33.772] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2015-01-20 15:01:33.801] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"connector.entryHandler.entry","body":"hello pomelo"}
+[2015-01-20 15:01:33.805] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js] [39mno default error handler to resolve unknown exception. Error: invalid entry request: empty token
+    at Handler.entry (/home/landfrom/verse/game-server/app/servers/connector/handler/entryHandler.js:24:14)
+    at Service.handle (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/handlerService.js:38:30)
+    at handle (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:370:25)
+    at next (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+    at doHandle (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:383:3)
+    at dispatch (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:107:7)
+    at next (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+[2015-01-20 15:01:33.806] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.entryHandler.entry, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2015-01-20 15:05:45.945] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 15:05:46.711] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 15:05:46.715] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 15:05:46.715] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 460 ms
+[2015-01-20 15:05:52.997] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2015-01-20 15:05:53.004] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":2,"type":0,"compressRoute":0,"route":"connector.entryHandler.entry","body":"hello pomelo"}
+[2015-01-20 15:05:53.009] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js] [39mno default error handler to resolve unknown exception. Error: invalid entry request: empty token
+    at Handler.entry (/home/landfrom/verse/game-server/app/servers/connector/handler/entryHandler.js:24:14)
+    at Service.handle (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/handlerService.js:38:30)
+    at handle (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:370:25)
+    at next (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+    at doHandle (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:383:3)
+    at dispatch (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:107:7)
+    at next (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+[2015-01-20 15:05:53.011] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.entryHandler.entry, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2015-01-20 15:06:00.670] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 2
+[2015-01-20 15:06:00.679] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 2, msg: {"id":1,"type":0,"compressRoute":0,"route":"connector.entryHandler.entry","body":"hello pomelo"}
+[2015-01-20 15:06:00.680] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js] [39mno default error handler to resolve unknown exception. Error: invalid entry request: empty token
+    at Handler.entry (/home/landfrom/verse/game-server/app/servers/connector/handler/entryHandler.js:24:14)
+    at Service.handle (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/handlerService.js:38:30)
+    at handle (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:370:25)
+    at next (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+    at doHandle (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:383:3)
+    at dispatch (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:107:7)
+    at next (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+[2015-01-20 15:06:00.680] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.entryHandler.entry, msg: {"code":500}, receivers: [2], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2015-01-20 15:06:11.656] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 15:06:12.494] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 15:06:12.497] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 15:06:12.497] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 528 ms
+[2015-01-20 15:06:13.493] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2015-01-20 15:06:13.500] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":2,"type":0,"compressRoute":0,"route":"connector.entryHandler.entry","body":"hello pomelo"}
+[2015-01-20 15:06:13.504] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js] [39mno default error handler to resolve unknown exception. Error: invalid entry request: empty token
+    at Handler.entry (/home/landfrom/verse/game-server/app/servers/connector/handler/entryHandler.js:24:14)
+    at Service.handle (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/handlerService.js:38:30)
+    at handle (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:370:25)
+    at next (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+    at doHandle (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:383:3)
+    at dispatch (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:107:7)
+    at next (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+[2015-01-20 15:06:13.505] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.entryHandler.entry, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2015-01-20 15:06:13.523] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.entryHandler.entry, msg: {"code":200,"msg":"game server is ok."}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2015-01-20 15:06:31.414] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 15:06:32.171] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 15:06:32.175] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 15:06:32.175] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 457 ms
+[2015-01-20 15:06:35.566] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2015-01-20 15:06:35.574] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"connector.entryHandler.entry","body":"hello pomelo"}
+[2015-01-20 15:06:35.579] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js] [39mno default error handler to resolve unknown exception. Error: invalid entry request: empty token
+    at Handler.entry (/home/landfrom/verse/game-server/app/servers/connector/handler/entryHandler.js:24:14)
+    at Service.handle (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/handlerService.js:38:30)
+    at handle (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:370:25)
+    at next (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+    at doHandle (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:383:3)
+    at dispatch (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:107:7)
+    at next (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+[2015-01-20 15:06:35.580] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.entryHandler.entry, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2015-01-20 15:06:35.584] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.entryHandler.entry, msg: {"code":200,"msg":"game server is ok."}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2015-01-20 15:12:53.929] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 15:12:54.791] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 15:12:54.795] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 15:12:54.795] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 539 ms
+[2015-01-20 15:12:55.989] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2015-01-20 15:12:55.996] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":2,"type":0,"compressRoute":0,"route":"connector.entryHandler.entry","body":"hello pomelo"}
+[2015-01-20 15:12:56.005] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js] [39mno default error handler to resolve unknown exception. Error: invalid entry request: empty token
+    at Handler.entry (/home/landfrom/verse/game-server/app/servers/connector/handler/entryHandler.js:24:14)
+    at Service.handle (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/handlerService.js:38:30)
+    at handle (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:370:25)
+    at next (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:242:8)
+    at doHandle (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:383:3)
+    at dispatch (/home/landfrom/verse/game-server/node_modules/pomelo/lib/server/server.js:107:7)
+    at next (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+[2015-01-20 15:12:56.007] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.entryHandler.entry, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2015-01-20 15:12:56.071] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.entryHandler.entry, msg: {"code":200,"msg":"game server is ok."}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2015-01-20 15:55:38.363] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 15:55:39.123] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 15:55:39.126] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 15:55:39.126] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 454 ms
+[2015-01-20 15:55:57.622] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 15:55:58.377] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 15:55:58.381] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 15:55:58.381] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 454 ms
+[2015-01-20 15:56:04.757] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2015-01-20 15:56:04.765] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":3,"type":0,"compressRoute":0,"route":"connector.entryHandler.entry","body":"hello pomelo"}
+[2015-01-20 16:00:13.772] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 1
+[2015-01-20 16:08:19.471] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 16:08:20.310] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 16:08:20.313] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 16:08:20.314] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 496 ms
+[2015-01-20 16:13:06.522] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 16:13:07.405] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 16:13:07.409] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 16:13:07.409] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 516 ms
+[2015-01-20 16:15:31.469] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 16:15:32.289] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 16:15:32.293] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 16:15:32.294] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 491 ms
+[2015-01-20 16:19:13.339] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 16:19:14.141] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 16:19:14.148] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 16:19:14.149] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 484 ms
+[2015-01-20 16:19:14.274] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/home/landfrom/verse/game-server/app.js","env":"development","id":"auth-server-1","host":"127.0.0.1","port":3650,"serverType":"auth","pid":11550}}
+[2015-01-20 16:19:26.625] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2015-01-20 16:19:26.631] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":4,"type":0,"compressRoute":0,"route":"connector.entryHandler.entry","body":"hello pomelo"}
+[2015-01-20 16:19:26.673] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 4, route: connector.entryHandler.entry, msg: {"code":200,"msg":"game server is ok."}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2015-01-20 17:02:38.818] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 17:02:39.890] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 17:02:39.895] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 17:02:39.896] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 680 ms
+[2015-01-20 17:02:44.189] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2015-01-20 17:02:44.197] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":5,"type":0,"compressRoute":0,"route":"connector.entryHandler.entry","body":"hello pomelo"}
+[2015-01-20 17:02:44.229] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 5, route: connector.entryHandler.entry, msg: {"code":200,"msg":"game server is ok."}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2015-01-20 17:09:55.146] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 17:09:56.073] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 17:09:56.077] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 17:09:56.077] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 581 ms
+[2015-01-20 17:10:00.942] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2015-01-20 17:10:00.952] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"connector.entryHandler.entry","body":"hello pomelo"}
+[2015-01-20 17:10:00.968] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.entryHandler.entry, msg: {"code":200,"msg":"game server is ok."}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2015-01-20 17:16:29.268] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 17:16:30.311] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 17:16:30.316] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2015-01-20 17:16:30.317] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 680 ms
+[2015-01-20 17:16:30.564] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/modules/monitorwatcher.js] [39m[connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/home/landfrom/verse/game-server/app.js","env":"development","id":"auth-server-1","host":"127.0.0.1","port":3650,"serverType":"auth","pid":12630}}
+[2015-01-20 17:17:48.165] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2015-01-20 17:17:48.183] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"connector.entryHandler.entry","body":"hello pomelo"}
+[2015-01-20 17:17:48.206] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/components/connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.entryHandler.entry, msg: {"code":200,"msg":"game server is ok."}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2015-01-20 17:46:12.830] [DEBUG] pomelo - [36m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/common/service/sessionService.js] [39msession on [connector-server-1] is closed with session id: 1

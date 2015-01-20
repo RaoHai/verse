@@ -34,24 +34,10 @@
     </script>
   </head>
   <body>
-    <div class="g-doc">
-      <div class="g-banner" style="border:none">
-        <div class="logo">
-          <div class="img"></div>
-        </div>
-      </div>
-      <div class="g-background">
-        <div class="g-content">
-          Welcome to Pomelo
-        </div>
-      </div>
-      <div class="g-link">
-        Home:
-        <a href="https://github.com/NetEase/pomelo">https://github.com/NetEase/pomelo</a>
-      </div>
-      <div class="g-button">
-        <input id="test" type="button" value="Test Game Server" onclick="show()"/>
-      </div>
-    </div>
+    <form action="/login" method="post">
+      <input type="text" name="username">
+      <input type="password" name="password">
+      <input type="submit">
+    </form>
   </body>
 </html>

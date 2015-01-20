@@ -17,15 +17,13 @@ var init = function () {
         db;
 
     dbFile = dbConfig.connection.filename = path.join(appBase, dbConfig.connection.filename)
-    console.log("dbFile:", dbFile);
-
     db = bookshelf(knex(dbConfig));
 
     fs.exists(dbFile, function(exists) {
+
         if (!exists) {
             return defer.resolve(utils.createDb(db, schemaTables));
         }
-
         return defer.resolve(db);
     });
 
