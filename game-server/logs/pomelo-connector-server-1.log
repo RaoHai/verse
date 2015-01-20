@@ -84,3 +84,7 @@
 [2015-01-19 18:07:25.971] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
 [2015-01-19 18:07:25.971] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 476 ms
 [2015-01-19 18:11:50.836] [INFO] pomelo - [32m[/home/landfrom/verse/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 01:37:06.201] [INFO] pomelo - [32m[F:\verse\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2015-01-20 01:37:07.482] [INFO] pomelo - [32m[F:\verse\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2015-01-20 01:37:07.482] [INFO] pomelo - [32m[F:\verse\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2015-01-20 01:37:07.482] [INFO] pomelo - [32m[F:\verse\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 1047 ms
