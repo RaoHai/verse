@@ -17,7 +17,7 @@ doConfigure = function () {
 
 
     app.set('view engine', 'jade');
-    app.set('views', __dirname + '/public');
+    app.set('views', __dirname + '/views');
     app.set('view options', {layout: false});
     app.set('basepath',__dirname + '/public');
 

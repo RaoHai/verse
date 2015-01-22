@@ -5,7 +5,11 @@ var frontendRoute = function () {
 
     var router = express.Router();
 
-    router.post('/login', controllers.auth.login);
+    router.get('/login', controllers.auth.login)
+    router.post('/login', controllers.auth.doLogin);
+
+    router.get('/register', controllers.auth.register);
+    router.post('/register', controllers.auth.doRegister);
 
     return router;
 };
