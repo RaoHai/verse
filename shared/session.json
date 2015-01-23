@@ -1,0 +1,4 @@
+{
+    "secret": "verse_session_secret", 
+    "expire": -1
+}

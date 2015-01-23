@@ -1,12 +1,24 @@
-
+var         Token = require('../../../shared/token'),
+           secret = require('../../../shared/session').secret,
+     dataProvider = require('../../../shared/models');
 
 var login = function (req, res, next) {
-    // console.log(">>>", req.model);
-    // console.log("post login:", req.body);
     res.render('login');
 };
 
 var doLogin = function  (req, res, next) {
+    var username, password;
+    username = req.body.username;
+    password = req.body.password;
+
+    dataProvider.User.findOne({name : username}).then(function (result) {
+        var token = Token.create(result.id, Date.now(), secret);
+       
+        result.token = token;
+        req.session.user = result;
+
+        res.redirect('/');
+    });
 
 };
 

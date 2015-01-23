@@ -4,33 +4,65 @@ var fs          = require('fs'),
     path        = require('path'),
     Promise     = require('bluebird'),
     _           = require('lodash'),
-    utils       = require('../utils');
+    utils       = require('../utils'),
+    models;
 
-var init = function () {
-    var appBase      = path.join(path.dirname(require.main.filename), '../shared'),
-        dbConfigPath = path.join(appBase, '/config.json'),
-        schemaTables = require(path.join(appBase, '/data/schema')).tables,
-        dbConfig     = require(dbConfigPath),
+models = {
+    init : function () {
+        var self = this;
+        var appBase      = path.join(path.dirname(require.main.filename), '../shared'),
+            dbConfigPath = path.join(appBase, '/config.json'),
+            schemaTables = require(path.join(appBase, '/data/schema')).tables,
+            dbConfig     = require(dbConfigPath),
 
-        defer = Promise.defer(),
-        dbFile,
-        db;
+            defer = Promise.defer(),
+            dbFile;
 
-    dbFile = dbConfig.connection.filename = path.join(appBase, dbConfig.connection.filename)
-    db = bookshelf(knex(dbConfig));
+        self.Base = require('./base');
 
-    fs.exists(dbFile, function(exists) {
+        var User = require('./User');
+        // self.User = User.model;
 
-        if (!exists) {
-            return defer.resolve(utils.createDb(db, schemaTables));
-        }
-        return defer.resolve(db);
-    });
+        _.extend(self, User);
 
-    return defer.promise;
+        dbFile = dbConfig.connection.filename = path.join(appBase, dbConfig.connection.filename)
+        
+        fs.exists(dbFile, function(exists) {
+            if (!exists) {
+                return defer.resolve(utils.createDb(self.Base, schemaTables));
+            }
+            return defer.resolve(self.Base);
+        });
+        
+        return defer.promise;
+        // var appBase      = path.join(path.dirname(require.main.filename), '../shared'),
+        //     dbConfigPath = path.join(appBase, '/config.json'),
+        //     schemaTables = require(path.join(appBase, '/data/schema')).tables,
+        //     dbConfig     = require(dbConfigPath),
 
+        //     defer = Promise.defer(),
+        //     dbFile,
+        //     verseBookshelf;
+
+        // dbFile = dbConfig.connection.filename = path.join(appBase, dbConfig.connection.filename)
+        // verseBookshelf = bookshelf(knex(dbConfig));
+
+        // verseBookshelf.Model = verseBookshelf.Model.extend({
+
+        // });
+
+        // fs.exists(dbFile, function(exists) {
+
+        //     if (!exists) {
+        //         return defer.resolve(utils.createDb(verseBookshelf, schemaTables));
+        //     }
+        //     return defer.resolve(verseBookshelf);
+        // });
+
+
+        // return defer.promise;
+
+    }
 };
 
-module.exports = {
-    init : init
-};
+module.exports = models;

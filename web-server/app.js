@@ -1,6 +1,7 @@
 var express       = require('express'),
 methodOverride  = require('method-override'),
 session     = require('express-session'),
+secret      = require('../shared/session').secret
 bodyParser  = require('body-parser'),
 webRoutes   = require('./app/routes'),
 model       = require('../shared/models'),
@@ -14,6 +15,11 @@ doConfigure = function () {
     app.use(methodOverride());
     app.use(bodyParser.urlencoded({ extended: false }));
     app.use(bodyParser.json());
+    app.use(session({ 
+        secret: secret ,
+        resave: false,
+        saveUninitialized: true
+    }));
 
 
     app.set('view engine', 'jade');
@@ -38,7 +44,7 @@ doConfigure = function () {
 console.log("Web server has started.\nPlease log on http://127.0.0.1:3001/index.html");
 
 model.init().then(function (model) {
-     
+
     app.use(function (req, res, next) {
         req.model = model;
         next();

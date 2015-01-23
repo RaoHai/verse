@@ -5,6 +5,8 @@ var frontendRoute = function () {
 
     var router = express.Router();
 
+    router.get('/', controllers.frontend.index);
+
     router.get('/login', controllers.auth.login)
     router.post('/login', controllers.auth.doLogin);
 
